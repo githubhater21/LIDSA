@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 18px 20px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: rgb(140, 132, 150);
+}
+
+.tabcontent {
+  color: gray;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: rgba(3, 32, 59, 0.295);}
+#Online_Camp_2021 {background-color: rgb(110, 17, 122);}
+#Register {background-color: rgb(10, 10, 112);}
+#Adios {background-color: rgb(3,32, 59, 0.295);} 
+</style>
+<title> LIDSA Project </title>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'gray')" id="defaultOpen"> Home </button>
+<button class="tablink" onclick="openPage('Online_Camp_2021', this, 'pink')"> Online_Camp_2021 </button>
+<button class="tablink" onclick="openPage('Register', this, 'orange')">Register</button>
+
+<button class="tablink" onclick="openPage('Adios', this, 'ight-blue')">Adios </button>
+
+<div id="Home" class="tabcontent" ; style="background-image:url('https://bit.ly/3jHBdkW')" ; >
+  
+  <h1> Welcome to the LIDSA Homepage </h1> <br> 
+  <h4> Disclaimer : The information provided in this webpage is for general information purposes only. </h4>
+  <h4> Any resemblance to a real website is entirely coincidental and the creator is not responsible for it. </h4>
+  <h3> Reflect || Act || Transform </h3>
+  <h4> LIDSA stands for Lorem Ipsum Dolor Sit Amet club  </h4> <br> 
+  <h4> Founded in 1204 CE, Lorem Ipsum Dolor Sit Amet club (LIDSA) aims to increase the participation of youth in the policymaking process and build their capacity to change.</h4>
+  <h4> We are designed to equip young citizens with a better understanding of the society they live in and the challenges that it confronts. </h4>
+ <h4> Our aim is to help broaden their (young citizens) perspective; think critically about their socio-political construct, tap their leadership potential and acquire various skills to create a long lasting impact.</h4>
+ <h4> We currently run programs all over India and UAE , in addition to undertaking projects in civic engagement and public policy. </h4> 
+ <h1> Building Capacity to Lead Change </h1>
+ <ul>
+    <li> Critical Thinking </li>
+    <li> Empathy </li>
+    <li> Leadership </li>
+    <li> Projects and Campaigns </li>
+    <li> Advocacy for change </li>
+    <li> Civic Action and its Impact </li>
+    </ul> 
+
+
+    <h1> The home tab is set to default open. </h1>
+      <h1> Check out the other tabs as well. </h1> 
+      <br> <br> <br> <br> <br> 
+      <br> <br> <br> <br> <br> 
+ </div> 
+<div id="Online_Camp_2021" class="tabcontent" ; style="background-image:url('https://bit.ly/2SQzSgE')" : >
+  <h3>Online Camp 2021 </h3>
+  <h4> Due to travel restrictions and other guidelines, we are organising this year's LIDSA project camp online</h4>
+  <h4> This camp will have the duration of an entire month. </h4>
+  <h4> It will be held in the month of August tentatively. </h4>
+  <h4> To get yourself enrolled in this camp, please duly fill and submit the registration form (in the next tab).</h4>
+  <h4> Objectives of the interactive session : Enlight the students and inclucate various habbits in them such as critical thinking, empathy and leadership etc.  </h4>
+  <h4> It will be conducted by the members of the management team as usual.  </h4>
+  <h4> #CRITICAL THINKING </h4>
+  <h4> #EMPATHY </h4>
+  <h4> #LEADERSHIP </h4>
+  <h4> #PROJECTS AND CAMPAIGNS </h4>
+  <h4>#ADVOCACY FOR CHANGE </h4>
+  <h4> #CIVIC ACTION AND ITS IMPACT </h4>
+  <h4> Check out the registration form </h4>
+ <br> <br> <br> <br> <br> 
+ <br> <br> <br> <br> <br> 
+ <br> <br> <br> <br> <br> 
+ <br> <br> <br> <br> <br> 
+</div>
+
+<div id="Register" class="tabcontent"  ; style="background-image:url('https://bit.ly/3qMIuBy')" : >
+  <h3>Registration form for the online camp (2021) </h3>
+ <h4> Last date of registration is 8th July 2021 </h4>
+ <h4> The asterisks symbol above some of the details, * means that its compulsary . </h4>
+ <h4> Note : This camp is only for school students .</h4>
+
+ <form action="" >   
+     <span> Student Name  </span>
+     <br> <br>
+     <input type="text" />
+     <br> <br> 
+     <span> Guardian's Name *  </span>
+   <br> <br> 
+     <input type="text" /> 
+     <br> <br> 
+     <span> Date of Birth * </span>
+     <br> <br> 
+     <input type="date" /> <br> <br> 
+     </form> 
+Upload a passsport size photograph of the student's School ID Card * 
+     <form action="/action_page.php">
+        <input type="file" id="myFile" name="filename">
+        <input type="submit"> <br> <br> 
+      </form>
+
+      <form action="" > 
+   
+     <span> Gender *  </span>
+     <select name="">
+         <option value="Male"></option>
+         <option value="Female"> </option>
+         <option value="Custom"> </option>
+         <option value="Dont want to specify"> </option>
+     </select>
+     <span> Mobile Number (Along with country code ) *</span>
+     <br> <br> 
+     <input type="text" /> <br> <br> 
+     <span> Student Mail ID * </span>
+         <br> <br>
+         <input type="email" /> 
+         <br> <br>
+    <span> Country </span>
+    <br> <br>
+    <input type="text" /> <br> <br> 
+    <span> School Name </span>
+    <br> <br>
+    <input type="text" /> <br> <br> 
+    <span> School Address </span><br> <br> 
+    <input type="text" /> <br> <br>
+    <span> Class </span> <br> <br> 
+    <input type="text" /> <br> <br> 
+ </form>
+ <form> 
+   
+        <input type="button" onclick="window.location.href='https://githubhater21.github.io/submission_session3/';" value="SUBMIT" />
+  
+ </form>
+</div>
+
+
+<div id="Adios" class="tabcontent"  ; style="background-image:url('https://bit.ly/3xh17Qm')" : >
+ <form action="">
+        
+           <Span> Adios ?</Span>
+           <input type="radio" name="" id="" /><span> Totsiens </span> <br /> 
+           <input type="radio" name="" id="" /><span> Ma'a as-salaama</span> <br />
+           <input type="radio" name="" id="" /><span> Zdravo </span> <br />
+           <input type="radio" name="" id="" /><span> Joigin </span> <br />
+           <input type="radio" name="" id="" /><span> Donadagohvi </span> <br />
+           <input type="radio" name="" id="" /><span> Dovidenja</span> <br />
+           <input type="radio" name="" id="" /><span> Sbohem</span> <br />
+           <input type="radio" name="" id="" /><span> Farvel</span> <br />
+           <input type="radio" name="" id="" /><span> Totziens  </span> <br />
+           <input type="radio" name="" id="" /><span> Nagemist </span> <br />
+           <input type="radio" name="" id="" /><span> Nakemiin </span> <br />
+           <input type="radio" name="" id="" /><span> Au Revoir </span> <br />
+           <input type="radio" name="" id="" /><span> Yasou </span> <br />
+           <input type="radio" name="" id="" /><span> Aloha </span> <br />
+           <input type="radio" name="" id="" /><span> Slan </span> <br />
+        
+
+           
+    </form>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html>
